@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>color picker</title>
+        <meta charser="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <center>
+              <h1>color picker</h1>
+        </center>
+        <div class="main-container">
+            <div  class="text">
+               <textarea id="texts"placeholder="Enter text here" class="textarea "rows="10" cols="15"  ></textarea>
+              <!--- <button class="Download">Download</button>-->
+            </div>
+           <div class="two-btn"> 
+                <div class="font-color">
+                    <h3 class>Text Color </h3>
+                    <div class="btn-tag">
+                        <button id="red" class="btn red" onclick="changecolor('red')"> Red</button>
+                        <button id="blue" class="btn blue" onclick="changecolor('blue')"> Blue</button>
+                        <button id="yellow" class="btn yellow"onclick="changecolor('yellow')"> Yellow</button>
+                        <button id="green" class="btn green"onclick="changecolor('green')"> Green</button>
+                        <button id="orange" class="btn orange"onclick="changecolor('orange')"> Orange</button>
+                        <button id="purple" class="btn purple"onclick="changecolor('purple')"> Purple</button>
+                  </div>
+               </div>
+                <div class="bg-color">
+                        <h3 class>Background Color </h3>
+                    <div class="button-tag">
+                        <button id="red-bg" class="button red" onclick="changebgcolor('red')"> Red</button>
+                        <button id="blue-bg" class="button blue" onclick="changebgcolor('blue')"> Blue</button>
+                        <button id="yellow-bg" class="button yellow"onclick="changebgcolor('yellow')"> Yellow</button>
+                        <button id="green-bg" class="button green"onclick="changebgcolor('green')"> Green</button>
+                        <button id="orange-bg" class="button orange"onclick="changebgcolor('orange')"> Orange</button>
+                        <button id="purple-bg" class="button purple"onclick="changebgcolor('purple')"> Purple</button>
+                    </div>
+               </div>
+                 <div class="font-colour">
+                            <h3 class>Font Change </h3>
+                        <div class="button-tag">
+                            <button id="Courier" class="font Courier" onclick="changetext('Courier')"> Courier</button>
+                            <button id="monospace" class="font Monaco" onclick="changetext('monospace')"> monospace</button>
+                            <button id="helvetica" class="font Lobster"onclick="changetext('helvetica')"> helvetica</button>
+                            <button id="pacifico" class="font pacifico"onclick="changetext('Times')"> Times Ramon</button>
+                            <button id="Arial" class="font Arial"onclick="changetext('Arial')"> Arial</button>
+                            <button id="Georgia" class="font Consolas"onclick="changetext('Georgia')"> Georgia</button>
+                        </div>
+                 </div>
+            </div>
+        </div>
+    </body>
+</html>
